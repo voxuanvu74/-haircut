@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#85DAF3"
+    android:paddingBottom="8dp"
+    android:paddingLeft="3dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtQLDHNumberPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NumberPhone"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#1420A5"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtQLDHShop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Shop"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtQLDHStylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stylist" />
+
+        <TextView
+            android:id="@+id/txtQLDHDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="day" />
+
+        <TextView
+            android:id="@+id/txtQLDHHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="hour" />
+
+        <TextView
+            android:id="@+id/txtQLDHTong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tong"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnQLDHHoanThanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:background="#FF0909"
+            android:text="Hoàn thành"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/btnQLDHHuyLich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="40sp"
+            android:layout_weight="1"
+            android:background="#9C2A51"
+            android:text="Hủy lịch"
+            android:textColor="#C5CAE9" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

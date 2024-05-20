@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#081b1f"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="206dp"
+                android:src="@drawable/background" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#081b1f"
+                android:text="Chào mừng bạn đến với Barber 4Rau - nơi cung cấp dịch vụ cắt tóc chất lượng và phong cách. Với đội ngũ thợ cắt tóc chuyên nghiệp và đam mê, chúng tôi mang đến những kiểu tóc độc đáo và tinh tế. Không chỉ làm đẹp, chúng tôi còn tạo ra một không gian thoải mái và thân thiện để bạn thư giãn. Hãy đến với Barber 4Rau để tận hưởng trải nghiệm cắt tóc tuyệt vời và diện mạo mới đầy tự tin."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="240dp"
+                    android:src="@drawable/background3" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#081b1f"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="60dp"
+                    android:text="    Stylist của Barber 4Rau            Tài năng, sáng tạo và chuyên nghiệp. Họ tạo nên kiểu tóc độc đáo, phong cách và đáp ứng mọi yêu cầu của khách hàng."
+                    android:textAlignment="textStart"
+                    android:textColor="#FDFDFD"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#081b1f"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_8440" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:text="SUBSCRIBE"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF" />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icons_facebook" />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icons_instagram" />
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/icons_youtube" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:text="©2020 4Rau Barber Shop | Cut Club Saigon. @Copy"
+                    android:textAlignment="center"
+                    android:textColor="#FFFEFE" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
